@@ -156,3 +156,12 @@
     transition: 250ms;
   }
 }
+.menuIcon{
+  display: none;
+}
+
+@media(max-width:960px){
+  .menuIcon{
+    display: block;
+  }
+}
