@@ -21,7 +21,7 @@ function Footer(){
        </section>
        <div className="footer-links">
            <div className="footer-link-wrapper">
-              <div className="footer-link.items">
+              <div className="footer-link-items">
                 <h2>About us</h2>
                  <Link to="/sign-up">How it works</Link>
                  <Link to="/sign-up">Testimonials</Link>
@@ -30,7 +30,7 @@ function Footer(){
                  <Link to="/sign-up">Terms of Service</Link>
               </div>
 
-              <div className="footer-link.items">
+              <div className="footer-link-items">
                 <h2>Contact us</h2>
                  <Link to="/sign-up">How it works</Link>
                  <Link to="/sign-up">Testimonials</Link>
@@ -45,7 +45,7 @@ function Footer(){
            </div>
 
            <div className="footer-link-wrapper">
-              <div className="footer-link.items">
+              <div className="footer-link-items">
                 <h2>About us</h2>
                  <Link to="/sign-up">How it works</Link>
                  <Link to="/sign-up">Testimonials</Link>
@@ -54,7 +54,7 @@ function Footer(){
                  <Link to="/sign-up">Terms of Service</Link>
               </div>
 
-              <div className="footer-link.items">
+              <div className="footer-link-items">
                 <h2>Contact us</h2>
                  <Link to="/sign-up">How it works</Link>
                  <Link to="/sign-up">Testimonials</Link>
@@ -75,7 +75,24 @@ function Footer(){
                 LINKS <i className="fab fa-typo3"></i>
               </Link>
             </div>
+          <small className="webiste-rights">LINKS @ 2020</small>
+          <div className="social-icons">
+            <Link className="social-icon-link facebook"
+            to="/"
+            target="_balnk"
+            aria-label="facebook"
+            >
+              <i className="fab fa-facebook-f"></i>
+            </Link>
 
+            <Link className="social-icon-link instagram"
+            to="/"
+            target="_balnk"
+            aria-label="Instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </Link>
+          </div>
          </div>
        </section>
     </div>
